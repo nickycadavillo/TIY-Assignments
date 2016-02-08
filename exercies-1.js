@@ -27,14 +27,19 @@ firstNames.indexOf("Katnis");
 
 
 // .join()
+var together = firstNames.join("+");
+console.log(together);
+=> Primrose+Katnis+Gale+Peta
 
 
 // .pop() removes last element from array (and returns the element)
 firstNames.pop();
+console.log();
 => "Peta"
 
 // .push() adds one or more items to end of array and returns number of items in it
 firstNames.push();
+console.log();
 => 4
 
 // .slice() 
@@ -43,10 +48,12 @@ firstNames.push();
 
 // .shift() removes first element from array (and returns the element)
 firstNames.shift();
+console.log();
 => "Primrose"
 
 // .unshift() adds one or more items to start of array and returns new length of it
 firstNames.unshift();
+console.log();
 => 4
 
 // .filter() creates new array with elements that pass a test specified by a function
