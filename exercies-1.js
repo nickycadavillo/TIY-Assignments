@@ -24,7 +24,7 @@ firstNames.indexOf("Katnis");
 => 1
 
 // .split() splits a string object into an array of strings by separating the string into substrings
-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
 
 // .join()
 var together = firstNames.join("+");
@@ -42,9 +42,11 @@ firstNames.push();
 console.log();
 => 4
 
-// .slice() 
+// .slice() returns a shallow copy of a portion of an array into a new array object
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
 
 // .splice() 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
 // .shift() removes first element from array (and returns the element)
 firstNames.shift();
@@ -57,6 +59,8 @@ console.log();
 => 4
 
 // .filter() creates new array with elements that pass a test specified by a function
-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
 // .map() calls a function on each element in array and creates new array with results
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
