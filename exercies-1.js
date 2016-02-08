@@ -5,29 +5,51 @@
  * 2. use console.log() to make the code run in the console!
 
  **/
+ 
+ var firstNames = ["Primrose", "Katnis", "Gale", "Peta"];
+ var numbers= [1, 2, 3, 4]
+ 
 
-// .sort()
+// .sort() reorders items in an array using a function (called a compare function)
+firstNames.sort(); 
+=> [ 'Gale', 'Katnis', 'Peta', 'Primrose' ]
 
-// .concat()
+// .concat() creates new array containing this array and other arrays/values
 
-// .indexOf()
+var nameNum = firstNames.concat(numbers);
+=> [ 'Primrose', 'Katnis', 'Gale', 'Peta', 1, 2, 3, 4 ]
 
-// .split()
+// .indexOf() finds the index of that element in the array
+firstNames.indexOf("Katnis");
+=> 1
+
+// .split() splits a string object into an array of strings by separating the string into substrings
+
 
 // .join()
 
-// .pop()
 
-// .push()
+// .pop() removes last element from array (and returns the element)
+firstNames.pop();
+=> "Peta"
 
-// .slice()
+// .push() adds one or more items to end of array and returns number of items in it
+firstNames.push();
+=> 4
 
-// .splice()
+// .slice() 
 
-// .shift()
+// .splice() 
 
-// .unshift()
+// .shift() removes first element from array (and returns the element)
+firstNames.shift();
+=> "Primrose"
 
-// .filter()
+// .unshift() adds one or more items to start of array and returns new length of it
+firstNames.unshift();
+=> 4
 
-// .map()
+// .filter() creates new array with elements that pass a test specified by a function
+
+
+// .map() calls a function on each element in array and creates new array with results
