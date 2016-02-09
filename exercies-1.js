@@ -7,7 +7,7 @@
  **/
 
  var firstNames = ["Primrose", "Katnis", "Gale", "Peta"];
- var numbers = [1, 2, 3, 4]
+ var numbers = [1, 2, 3, 4];
 
 
 // .sort() reorders items in an array using a function (called a compare function)
@@ -39,13 +39,15 @@ console.log(together);
 // .pop() removes last element from array (and returns the element)
 var firstNames = ["Primrose", "Katnis", "Gale", "Peta"];
 firstNames.pop();
-console.log();
+console.log(firstNames.pop());
 => "Peta"
 
 // .push() adds one or more items to end of array and returns number of items in it
 var firstNames = ["Primrose", "Katnis", "Gale", "Peta"];
 firstNames.push("Rue"); // adds Rue to the array
 => 5 // returns the new number of items
+
+//another way of doing it:
 
 // .slice() returns a shallow copy of a portion of an array into a new array object
 var firstNames = ["Primrose", "Katnis", "Gale", "Peta"];
