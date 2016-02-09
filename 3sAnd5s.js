@@ -9,12 +9,37 @@
 //    OR
 //    if something not i divides by 5 has remainder of 0 then continue
 //    else do not continue
-//
+//    how to find sum of all ????? another loop? no, add to current loop.
 
-var sum;
-var number;
+
+var sum = 0;
+var number; // initializing starting point
 
 for(number = 0; number < 1000; number ++) {
+  //  console.log(number); returns all numbers under 100
   if ((number % 3 === 0) || (number % 5 === 0))
-    console.log(number);
+    sum += number;
+  //  console.log(number); returns all numbers divisible by 3 and 5
   }
+console.log(sum);
+
+
+// trial and errors:
+//
+// for(sum = 0; sum <1000; sum ++) {
+//
+//   sum =+ number;
+//
+//   number = number;
+//   sum = number;
+// }
+//
+// }
+
+// while ( < 1000){
+//   sum += number;
+//
+// }
+//   sum = number + sum;
+//
+//   console.log(sum);
