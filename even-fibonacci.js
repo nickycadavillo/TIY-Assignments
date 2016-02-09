@@ -1,7 +1,7 @@
 // 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
 
 // use a for loop?
-// for (var i = 0; i < 4000000 
+// for (var i = 0; i < 4000000
 // while (condition) {
 //   statement
 // }
@@ -21,7 +21,8 @@ while (third < 4000000) { //condition will run third < 4 million
 
   if  (third % 2 === 0) { // if it is even
 // console.log(third);
-    sum += third;
+
+    sum += third; // same as sum = sum + third
   } // closes if statement
 
     third = first + second;
