@@ -19,11 +19,12 @@ var favFood = document.getElementById("food");
 // iterate through each li and change the class to listitem.
 // Add a style tag that sets a rule for listitem to make the color red.
 
-var list = document.querySelector("li");
-  list.className = "listitem";
+var list = document.getElementsByTagName("li"); //store in an array
 
-  list.style.color = "red";
-
+  for (item = 0; item <= list.length; item++) { //loop through items in array
+    list[item].className = "listitem"; // add classname
+    list[item].style.color = "red"; // change color
+  }
 
 // Create a new img element and set its src attribute to a picture of you.
 // Append that element to the page.
