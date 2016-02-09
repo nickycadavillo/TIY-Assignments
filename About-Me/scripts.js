@@ -13,12 +13,16 @@ var home = document.getElementById("hometown");
 var favMovie = document.getElementById("movie");
   favMovie.textContent = "The Hunger Games";
 
-var favFood = document.getElementById("food")
+var favFood = document.getElementById("food");
+  favFood.textContent = "cacio e pepe";
 
-
-// terate through each li and change the class to listitem.
+// iterate through each li and change the class to listitem.
 // Add a style tag that sets a rule for listitem to make the color red.
 
+var list = document.querySelector("li");
+  list.className = "listitem";
+
+  list.style.color = "red";
 
 
 // Create a new img element and set its src attribute to a picture of you.
