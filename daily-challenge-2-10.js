@@ -7,9 +7,14 @@
 //calculateAge
 //calculateAge - 1
 
-function calculateAge (birth year, current year) {
+function calculateAge (birthYear, currentYear) {
 
 }
+
+var birthYear;
+var currentYear = 2016
+calculateAge = currentYear - birthYear;
+
 
 
 console.log("You are either " + "calculateAge" + " or" + "calculateAge - 1")
