@@ -3,6 +3,7 @@
 var font = document.querySelector("body");
   font.style.fontFamily = "Arial";
 
+
 // replace each of the spans with your own information
 var fullName = document.getElementById("fullname");
   fullName.textContent = "Nicky Cadavillo";
@@ -16,9 +17,9 @@ var favMovie = document.getElementById("movie");
 var favFood = document.getElementById("food");
   favFood.textContent = "cacio e pepe";
 
+
 // iterate through each li and change the class to listitem.
 // Add a style tag that sets a rule for listitem to make the color red.
-
 var list = document.getElementsByTagName("li"); //store in an array
 
   for (item = 0; item <= list.length; item++) { //loop through items in array
@@ -28,3 +29,8 @@ var list = document.getElementsByTagName("li"); //store in an array
 
 // Create a new img element and set its src attribute to a picture of you.
 // Append that element to the page.
+
+// var new = document.createElement("img"); //create a new element and store in a variable
+//   new.src = "images/me.png"; // creates an src attribute
+//
+// document.getElementsByTagName("img").appendChild(new);  // append to img
