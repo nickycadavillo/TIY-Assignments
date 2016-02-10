@@ -16,3 +16,4 @@ var recipe = {
 console.log(recipe.title);
 console.log(recipe.serves);
 console.log(recipe.ingredients);
+//console.log(recipe.ingredients[0][1][2]);
