@@ -18,3 +18,11 @@ calculateAge = currentYear - birthYear;
 
 
 console.log("You are either " + "calculateAge" + " or" + "calculateAge - 1")
+
+//ANSWER BELOW
+// function calculateAge(birthYear, currentYear) {
+//     var age = currentYear - birthYear;
+//     console.log("You are either " + age + " or " + (age - 1));
+// }
+
+// calculateAge(1984, 2016);
