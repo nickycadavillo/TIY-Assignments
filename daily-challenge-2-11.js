@@ -1,3 +1,29 @@
+// IMDB
+
+// Create an object to store the following information about your favorite movie:
+// title (a string)
+// duration(number)
+// stars (array of strings)
+
+// Create a function to print out the movie information like so
+// "Puff the magic dragon lasts for 30 minutes. Stars: Puff, Jackie, Living Sneezes."
+
+var favMovie = {
+    title: "The Hunger Games",
+    duration: 2,
+    stars: ["Jennifer Lawrence", "Liam Hemsworth", "Elizabeth Banks"]
+}
+
+console.log(favMovie.title + "lasts for " + favMovie.duration + " hours.");
+
+console.log("Stars: ");
+for (var i = 0; i < favMovie.stars.length; i ++) {
+    console.log(favMovie.stars[i]);
+}
+
+
+
+
 lifetime supply of your favorite snack: cookies
 
 write a function named calculateSupply that takes 2 arguments: age, amount per day,
@@ -13,7 +39,7 @@ var total;
 
 
 function calculateSupply(age, amountPerDay){
-    if 
+    if
 }
 
 console.log("You will need " + " to last you until the ripe old age of" + age)
