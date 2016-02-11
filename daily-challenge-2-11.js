@@ -14,12 +14,17 @@ var favMovie = {
     stars: ["Jennifer Lawrence", "Liam Hemsworth", "Elizabeth Banks"]
 }
 
-console.log(favMovie.title + "lasts for " + favMovie.duration + " hours.");
+console.log(favMovie.title + " lasts for " + favMovie.duration + " hours.");
 
-console.log("Stars: ");
-for (var i = 0; i < favMovie.stars.length; i ++) {
-    console.log(favMovie.stars[i]);
-}
+// console.log("Stars: ");
+// for (var i = 0; i < favMovie.stars.length; i ++) {
+//     console.log(favMovie.stars[i]);
+// }
+
+console.log("Stars: " + favMovie.stars);
+// for (var i = 0; i < favMovie.stars.length; i ++) {
+//     console.log(favMovie.stars[i]);
+// }
 
 
 
