@@ -19,6 +19,5 @@ var favorites = [
 
 function allFaves () {
     for (var i = 0; i < favorites.length; i ++) {
-        console.log("My #1 choice is " + favorites[i])
     }
 }
