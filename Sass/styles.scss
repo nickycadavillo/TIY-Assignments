@@ -1,0 +1,56 @@
+$base-color: #FFF;
+$font: Helvetica;
+$heading-font: Gill Sans;
+$container-width: 90%;
+$margin: 5%;
+
+body {
+  background-color: $base-color;
+  font-family: $font;
+  display: block;
+}
+
+.hero-image {
+  width: $container-width;
+}
+
+h1 {
+  background-color: darken($base-color, 5%);
+  font-family: $heading-font;
+   text {
+    transform: uppercase;
+    align: center;
+  }
+}
+
+h2 {
+  color: darken($base-color, 20%);
+}
+
+.nav {
+  text-align: center;
+  display: inline;
+  padding: 10px;
+  margin {
+    left: $margin;
+    right: $margin;
+  }
+}
+
+img {
+  width: 90%;
+  margin-left: $margin;
+}
+
+.column-1-3 {
+  display: inline-block;
+  width: $container-width / 3;
+}
+
+.column-2-3 {
+  @extend .column-1-3;
+}
+
+.column-3-3 {
+  @extend .column-1-3;
+}
