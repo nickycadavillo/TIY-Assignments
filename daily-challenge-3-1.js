@@ -6,8 +6,16 @@
 
 
 function countTags(p) {
-   var y = p.length
+   var y = p.length // whoops no time and i shouldn't of used this!
     console.log("There are" + y + "tags of type" + p "on the page");
+}
+
+console.log(countTags());
+
+
+
+function countTags(p) {
+   for (p = 0; p < p.length; p++ )
 }
 
 console.log(countTags());
