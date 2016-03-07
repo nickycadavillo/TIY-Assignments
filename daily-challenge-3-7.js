@@ -6,6 +6,7 @@ function letterCapitalize(str){
     return str.toLowerCase()
     // then split? the string  and make first character uppercase...forgot how...
 
+    // charAt(0).toUpperCase()???
 
 }
 
