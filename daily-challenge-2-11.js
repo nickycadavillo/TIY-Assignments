@@ -11,7 +11,7 @@
 var favMovie = {
     title: "The Hunger Games",
     duration: 2,
-    stars: ["Jennifer Lawrence ", " Liam Hemsworth ", " Elizabeth Banks."]
+    stars: ["Jennifer Lawrence", " Liam Hemsworth", " Elizabeth Banks."]
 }
 
 console.log(favMovie.title + " lasts for " + favMovie.duration + " hours.");

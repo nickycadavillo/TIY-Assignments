@@ -3,7 +3,7 @@
 // muxUp('mix', 'pod'): 'pox mid'
 //mixUp('dog', 'dinner': 'dig donner')
 
-
+//this works but only takes two parameters, so only two words
 function mixUp(first, second){
     var firstCharZero = first.charAt(0);
     var secondCharZero = second.charAt(0);
@@ -19,10 +19,11 @@ function mixUp(first, second){
 console.log(mixUp("hello", "world"))
 console.log(mixUp("whats", "up"))
 
+//lets see if we can make an array and then do more than two
 var words = [];
 
-//lets see if we can make an array and then
-
 function mixUp(words){
-    for (words)
+    for (var i = 0; i < words.length; i++){
+
+    }
 }
