@@ -10,12 +10,13 @@ function repeat(arr){
     console.log(arr)
     arr.sort(function (a,b){
             if (a === b) {
-                console.log(arr);
-            } else a != b {
-                console.log(arr);
+                console.log ('');
+            } else a !=== b {
+                console.log(a);
             }
         });
-    };
+    }
 
 
-console.log(repeat("hello"))
+console.log(repeat("hello")
+console.log(repeat(["hello", "world"]))
