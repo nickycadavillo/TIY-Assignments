@@ -35,12 +35,14 @@ X-RateLimit-Remaining: 9924```
     * To get access to an Etsy members private account info, you'll need to request a set of temporary credentials (access token) using your key and "shared secret".  
   
 * **What Resource in the API represents...**
-     * an individual product?
+     * an individual product? 
+       * To get an individual listing or product, you need to use the getListing method. The URI would be /listings/:listing_id
      * a group or collection of products?
      * images associated with a product?
      * sizes and colors for a product?
    * **What actions and endpoints exist for each of these Resources?**
    * **What parameters do each endpoint require or accept?**
+     * 
    * **What fields are returned for each Resource, specifically:**
      * an individual product?
      * a group or collection of products?
