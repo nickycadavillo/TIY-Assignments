@@ -44,7 +44,13 @@ X-RateLimit-Remaining: 9924```
      * images associated with a product?
        * the Images association returns an array of images for the product
      * sizes and colors for a product?
-       * You can use the findAllListingActive method, using the parameter sort_on combined with color
+       * You can use the findAllListingActive method, using the parameter sort_on combined with color?
+       * Or it may be this: 
+       ```
+       GET /v2/property_options/suggested?property_id=100&recipient_id=266817083&sizing_scale=303
+      ```
+     
+       * For color, the property ID is 200, for size, the property ID is 100.
    * **What actions and endpoints exist for each of these Resources?**
    * **What parameters do each endpoint require or accept?**
      * 
