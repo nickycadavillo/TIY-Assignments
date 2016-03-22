@@ -36,14 +36,22 @@ X-RateLimit-Remaining: 9924```
   
 * **What Resource in the API represents...**
      * an individual product? 
+       * On Etsy, each individual product is a listing.  https://www.etsy.com/developers/documentation/reference/listing#method_findalllistingactive  
        * To get an individual listing or product, you need to use the getListing method. The URI would be /listings/:listing_id
+       * Or if you want to search active listings for a product, you can use the findAllListingActive method using the URI /listings/active
      * a group or collection of products?
+       * To search by category, you can use the getCategory method
      * images associated with a product?
+       * the Images association returns an array of images for the product
      * sizes and colors for a product?
+       * You can use the findAllListingActive method, using the parameter sort_on combined with color
    * **What actions and endpoints exist for each of these Resources?**
    * **What parameters do each endpoint require or accept?**
      * 
    * **What fields are returned for each Resource, specifically:**
      * an individual product?
+       *  When you retrieve a listing, you'll get back an array (specifically int)
      * a group or collection of products?
+       * 
    * **What _additional_ fields can be requested for each?**
+     * You can also get the listing's price, description, quantity, materials used, views, it's dimensions, and even if it's customizable or not.
