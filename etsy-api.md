@@ -2,10 +2,12 @@
   * What is the base URL for all requests?
   * Are there any headers or query parameters required?
   * What kind of response should I expect?
+  
 * **How does the API handle authentication?**
   * Do I _need_ to authenticate? with user credentials?
   * What can I do with an unauthenticated request?
   * How can I authenticate my request? (what methods)
+  
 * **What Resource in the API represents...**
      * an individual product?
      * a group or collection of products?
