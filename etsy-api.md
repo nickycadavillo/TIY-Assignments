@@ -1,8 +1,9 @@
 * **How do I make API requests?**
   * What is the base URL for all requests?
-    * An example of the base url is ```https://openapi.etsy.com/v2```
-    * This shows the most recent active listings on etsy
-    * Etsy requires a key at the end
+    * An example of the base url is ```https://openapi.etsy.com/v2``` and ends with the URL for the command
+    * Etsy requires a key at the end of requests and also a question mark and parameters which may look like:
+    * ```https://openapi.etsy.com/v2/users/etsystore?api_key=your_api_key
+```
   * Are there any headers or query parameters required?
     * Rate limit headers are required. You're allowed 10,000 requests per day and 10 per second.
     * Example: ```X-RateLimit-Limit: 10000
